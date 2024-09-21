@@ -29,7 +29,7 @@ export default function Activity() {
   }
 
   return (
-    <div className='mt-4 px-6'>
+    <div className='mt-4 px-4'>
       <h3 className='mb-4 text-white'>My Activity</h3>
       <div className='space-y-3'>
         {loggedTimers.map((timer, index) => {

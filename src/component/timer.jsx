@@ -125,7 +125,7 @@ export default function Timer() {
 
   return (
     <>
-      <div className='py-5 px-6 rounded-lg flex flex-col items-center'>
+      <div className='py-5 px-4 rounded-lg flex flex-col items-center'>
         <div className='flex justify-end w-full mb-2'>
           <button
             className='bg-[#494949] pl-4 pr-2.5 py-1.5 rounded-full font-medium text-white flex items-center gap-2'
@@ -142,7 +142,7 @@ export default function Timer() {
           percentage={isRunning ? percentage : 0}
         />
 
-        <div className='mb-4 flex justify-between w-full mt-4'>
+        <div className='mb-4 grid grid-cols-2 w-full mt-4'>
           <div className='flex flex-col justify-center items-center relative'>
             <span
               className='text-gray-300 text-sm font-medium mb-1 flex gap-2 items-center cursor-pointer hover:bg-gray-50/20 px-2.5 py-1.5 rounded'
